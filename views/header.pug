@@ -1,16 +1,14 @@
 header.mdl-layout__header
   .mdl-layout__header-row
-    // Title
+    // Title, &nbsp = force withespace
     span.mdl-layout-title
-      | PC Basics & Hilfen
+      |Abschnitt&nbsp
+      =title
     // Add spacer, to align navigation to the right
     .mdl-layout-spacer
     // Navigation. We hide it in small screens.
     nav.mdl-navigation.mdl-layout--large-screen-only
-      //&nbsp = force withespace
-      | <h4>Abschnitt&nbsp</h4> 
-      |
-      h4= title
+
 .mdl-layout__drawer
   span.mdl-layout-title
       | PC Basics & Hilfen

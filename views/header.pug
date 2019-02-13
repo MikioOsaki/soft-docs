@@ -7,8 +7,10 @@ header.mdl-layout__header
     .mdl-layout-spacer
     // Navigation. We hide it in small screens.
     nav.mdl-navigation.mdl-layout--large-screen-only
-      title
-      p hier steht die aktuelle überschrift
+      //&nbsp = force withespace
+      | <h4>Abschnitt&nbsp</h4> 
+      |
+      h4= title
 .mdl-layout__drawer
   span.mdl-layout-title
       | PC Basics & Hilfen

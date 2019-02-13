@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {   //hier blos nix reinschreiben nach dem /'
-  res.render('mausklick',  { title: 'mausklick' });
+  res.render('mausklick',  { title: 'Mausklick' });
 });
 
 module.exports = router;

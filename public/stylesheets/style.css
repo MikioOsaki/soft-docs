@@ -17,3 +17,12 @@ td{
   word-break:break-all;
   word-wrap:break-word;
 }
+.essentiell{
+  background-color: dodgerblue;
+}
+.nicetoknow{
+  background-color: rgb(30, 255, 139);
+}
+.fortgeschritten{
+  background-color: rgb(202, 84, 143);
+}

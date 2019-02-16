@@ -17,12 +17,11 @@ td{
   word-break:break-all;
   word-wrap:break-word;
 }
-.essentiell{
-  background-color: dodgerblue;
+.essential{
+  background-color:#b2ebf2;
 }
 .nicetoknow{
-  background-color: rgb(30, 255, 139);
-}
-.fortgeschritten{
-  background-color: rgb(202, 84, 143);
+  background-color:#00e5ff;}
+.advanced{
+  background-color:#00b8d4;
 }

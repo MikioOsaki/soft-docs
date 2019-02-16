@@ -1,27 +1,35 @@
 .mdl-navigation__link:hover {
   background-color: #104ac9;
 }
+
 .mdl-mini-footer__link-list li a:hover {
   color: #bbb;
 }
-.center_div{
+
+.center_div {
   text-align: center;
 }
-.md_max_size_div{
+
+.md_max_size_div {
   width: 100%;
   overflow-x: auto;
-  word-break:break-all;
-  word-wrap:break-word;
+  word-break: break-all;
+  word-wrap: break-word;
 }
-td{
-  word-break:break-all;
-  word-wrap:break-word;
+
+td {
+  word-break: break-all;
+  word-wrap: break-word;
 }
-.essential{
-  background-color:#b2ebf2;
+
+.essential {
+  background-color: #b2ebf2;
 }
-.nicetoknow{
-  background-color:#00e5ff;}
-.advanced{
-  background-color:#00b8d4;
+
+.nicetoknow {
+  background-color: #00e5ff;
+}
+
+.advanced {
+  background-color: #00b8d4;
 }

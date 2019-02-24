@@ -22,24 +22,27 @@ router.get('/shortcuts', function (req, res, next) {   //hier blos nix reinschre
 });
 
 /* GET WhatsApp listing. */
-router.get('/whatsapp', function (req, res, next) {   //hier blos nix reinschreiben nach dem /'
+router.get('/whatsapp', function (req, res, next) {
   res.render('whatsapp', { title: 'WhatsApp' });
 });
 
-/* GET WhatsApp listing. */
-router.get('/bitwarden', function (req, res, next) {   //hier blos nix reinschreiben nach dem /'
+/* GET Bitwarden listing. */
+router.get('/bitwarden', function (req, res, next) {
   res.render('bitwarden', { title: 'Bitwarden nutzen' });
 });
-/* GET WhatsApp listing. */
-router.get('/trello', function (req, res, next) {   //hier blos nix reinschreiben nach dem /'
+
+/* GET Trello listing. */
+router.get('/trello', function (req, res, next) {
   res.render('trello', { title: 'Trello nutzen' });
 });
-/* GET WhatsApp listing. */
-router.get('/recherchieren', function (req, res, next) {   //hier blos nix reinschreiben nach dem /'
+
+/* GET Recherchieren listing. */
+router.get('/recherchieren', function (req, res, next) {
   res.render('recherchieren', { title: 'Tipps zum Recherchieren' });
 });
-/* GET WhatsApp listing. */
-router.get('/googletrends', function (req, res, next) {   //hier blos nix reinschreiben nach dem /'
+
+/* GET GoogleTrends listing. */
+router.get('/googletrends', function (req, res, next) {
   res.render('googletrends', { title: 'Was ist GoogleTrends und wie verwende ich den Dienst?' });
 });
 

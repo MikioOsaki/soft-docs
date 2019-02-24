@@ -2,9 +2,19 @@ extends layout
 
 block content
   .mdl-grid
+    
     .mdl-cell.mdl-cell--12-col
-    h1 Wunschbeitrag hinzufügen
-
-    .mdl-cell.mdl-cell--12-col
+      h4 Wunschbeitrag hinzufügen
+    
     form(action="", method="post")
-    input(type="text", name="wunschbeitrag")
+    .mdl-cell.mdl-cell--12-col
+      label(class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox_notify")
+        input(type="checkbox" id="checkbox_notify" class="mdl-checkbox__input")
+        span(class="mdl-checkbox__label") Ich möchte benachrichtigt werden, sobald ein neuer Beitrag erscheint
+
+    .mdl-cell.mdl-cell--6-col
+        .mdl-textfield.mdl-js-textfield.mdl-textfield--floating-label
+          input(class="mdl-textfield__input" type="text", name="wunschbeitrag_text")
+          label(class="mdl-textfield__label" for="wunschbeitrag_text") Wunschbeitrag
+    .mdl-cell.mdl-cell--6-col
+          button(class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="button") In Liste aufnehmen!

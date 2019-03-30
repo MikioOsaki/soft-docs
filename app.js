@@ -22,7 +22,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/wunschbeitrag', wunschbeitragRouter);
-app.use('/trello', wunschbeitragRouter);
 app.use('/content', contentRouter);
 
 // catch 404 and forward to error handler
